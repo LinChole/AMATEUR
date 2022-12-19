@@ -1,0 +1,51 @@
+.btn-gradation{
+    background: linear-gradient(90deg, #790BD1 -50%, #190f68 100%);
+}
+.btn-gradation:hover{
+    background: linear-gradient(270deg, #790BD1 -50%, #190F68 100%);
+}
+.contestVoteNum{
+    color: linear-gradient(90deg, #790BD1 -50%, #ffffff 100%);
+}
+.contestSection_2{
+    width: 100%; height:300px;
+}
+.contestSection_3{
+    line-height: 300px;
+}
+.contestBandImg{
+    max-width: 400px;
+}
+.height30px{
+    height: 30px;
+}
+.width75{
+    width: 75%;
+}
+.height75{
+    height: 75%;
+}
+.contestImgCenter{
+    display: flex;
+    height: 240px;
+    align-items: center
+}
+.contestGroupimg-thumbnail {
+    padding: 0.25rem;
+    background-color: #000;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+  .contestIndexImg{ 
+    height: 75%;
+    background-image: url("../../public/images/bg-login01.png");
+}
+.bg-contest{
+    background: radial-gradient( #a342f1 -50%, #000000 100%);
+}
+.bg-SU-contest{
+    background: linear-gradient(90deg, #a342f1 -50%, #000000 100%);
+}

@@ -1,0 +1,115 @@
+.contest_h1 {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+    height: 100%;
+}
+
+.contestDivHeader {
+    width: 100%;
+    height: 100px;
+}
+
+.contstBodyLeft {
+    width: 45%;
+    float: left;
+    color: #ffffff;
+    background-color: #000000;
+
+}
+.contstBodyLeftPart2 {
+    width: 50%;
+    float: left;
+    color: #ffffff;
+    background-color: #000000;
+
+}
+
+.contstBodyRightPart2 {
+    width: 50%;
+    float: left;
+}
+
+.contstBodyRight {
+    width: 55%;
+    height: 258pt;
+    padding-top: 25px;
+    font-weight: bold;
+    background-color: #000000;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contestImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin-bottom: 100px;
+}
+
+.contestPart1Title {
+    font-weight:bold;
+    font-size: 36px;
+    padding-top: 25px;
+}
+
+.contestPart2Title {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.contestPart2Text {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 24px;
+    padding: 20px;
+}
+.contestText {
+    padding-top: 10px;
+    padding-right: 15px;
+    color: white;
+}
+.contestNote{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.floatclear{
+    clear:both;
+}
+.contestPadding{
+    padding: 10px;
+    font-size: 24px;
+}
+.contestPart2Note {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.CP2N{
+    width: 90%;
+    height: 90%;
+    background: linear-gradient(0deg, #790BD1 -50%, #190f68 100%);
+}
+.contestIndexBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contestPaddingTop{
+    padding-top: 200px;
+}

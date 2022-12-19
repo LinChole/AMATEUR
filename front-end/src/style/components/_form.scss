@@ -1,0 +1,58 @@
+.form-control {
+  &-login {
+    background-color: rgba(255,255,255,.2);
+    border: none;
+    &::placeholder{
+      color: white;
+    }
+    &:focus {
+      background-color: rgba(255,255,255,.1);
+      border-color: transparent;
+      box-shadow: none;
+    }
+  }
+  &-info {
+    border-radius: 0;
+    &:focus {
+      background-color: transparent;
+      border-color: transparent;
+      box-shadow: none;
+    }
+  }
+  &-addNewSong {
+    background-color: transparent;
+    border-color: black;
+    border-radius: 0;
+    width: 60%;
+    &:focus {
+      background-color: transparent;
+      border-color: black;
+      box-shadow: none;
+    }
+  }
+  &-addNewArticle {
+    background-color: white;
+    border-radius: 0;
+    &:focus {
+      background-color: white;
+      box-shadow: none;
+    }
+  }
+  &-replyContent {
+    background-color: transparent;
+    border-color: black;
+    border-radius: 0;
+    &:focus {
+      background-color: transparent;
+      border-color: black;
+      box-shadow: none;
+    }
+  }
+}
+
+.select-control-donate {
+  background-color: transparent;
+  & option[value="1"], & option[value="2"]{
+    background-color: black;
+  }
+}

@@ -1,0 +1,14 @@
+.parent {
+    display: flex;
+    justify-content: center;    
+    align-items: center;        
+  }
+  .CSU_Img{
+    width: 500px;
+    height: 500px;
+    background-image: url('http://localhost:9000/Img/albumDefaultImg.svg');
+    border-radius:50%;
+  }
+  .CSU_Img:hover{
+    background: linear-gradient(270deg, #790BD1 -50%, #190F68 100%, );
+  }

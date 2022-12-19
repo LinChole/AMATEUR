@@ -1,0 +1,52 @@
+// tab btn color
+.tab_link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-color: #fff;
+    text-decoration: none;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tab_link {
+        -webkit-transition: none;
+        transition: none;
+    }
+}
+
+.tab_link:hover,
+.tab_link:focus {
+    color: white;
+    border-color: #fff;
+
+}
+
+.tab_link {
+    margin-bottom: -1px;
+    background: none;
+    border: 1px solid transparent;
+    border-color: white;
+    // border-top-left-radius: 0.25rem;
+    // border-top-right-radius: 0.25rem;
+}
+
+.nav-pills .tab_link.active,
+.nav-pills .show>.tab_link {
+    color: black;
+    background-color: white;
+}
+
+.nav-fill>.nav_link,
+.nav-fill .nav-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.nav-fill .nav-item .tab_link,
+.nav-justified .nav-item .tab_link {
+    width: 100%;
+}
